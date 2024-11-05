@@ -8,7 +8,7 @@ let arr = [
     null,
     'asd',
     'qwe',
-    3, 14,
+    3.14,
     456
 ];
 console.log(arr[0]);
@@ -126,7 +126,7 @@ let users = [
     }
 ]
 console.log(users[0].password);
-console.log(users[2].password);
+console.log(users[1].password);
 console.log(users[2].password);
 console.log(users[3].password);
 console.log(users[4].password);
@@ -240,16 +240,16 @@ if (time < 0 || time > 59){
     console.log(`minute doesn't exist`);
 }
 else if (time >= 0 && time < 15) {
-    console.log('1 quarter of an hour');
+    console.log('first quarter of an hour');
 }
 else if (time >= 15 && time < 30) {
-    console.log('2 quarter of an hour');
+    console.log('second quarter of an hour');
 }
 else if (time >= 30 && time < 45) {
-    console.log('3 quarter of an hour');
+    console.log('third quarter of an hour');
 }
 else if (time >= 45 && time <= 59) {
-    console.log('4 quarter of an hour');
+    console.log('fourth quarter of an hour');
 }
 
 /* ----- UMoNq4biWGe ----- */
