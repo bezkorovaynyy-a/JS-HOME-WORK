@@ -236,7 +236,10 @@ else {
 
 /* ----- 3ckURgvs ----- */
 let time = 13;
-if (time >= 0 && time < 15) {
+if (time < 0 || time > 59){
+    console.log(`minute doesn't exist`);
+}
+else if (time >= 0 && time < 15) {
     console.log('1 quarter of an hour');
 }
 else if (time >= 15 && time < 30) {
@@ -248,13 +251,13 @@ else if (time >= 30 && time < 45) {
 else if (time >= 45 && time <= 59) {
     console.log('4 quarter of an hour');
 }
-else {
-    console.log(`minute doesn't exist`);
-}
 
 /* ----- UMoNq4biWGe ----- */
 let day = 13;
-if (day >= 1 && day <= 10) {
+if (day < 1 || day > 31) {
+    console.log(`day of the month does not exist`);
+}
+else if (day >= 1 && day <= 10) {
     console.log('first ten days of the month');
 }
 else if (day > 10 && day <= 20) {
@@ -262,9 +265,6 @@ else if (day > 10 && day <= 20) {
 }
 else if (day > 20 && day <= 31) {
     console.log('third ten days of the month');
-}
-else if (day < 1 || day > 31) {
-    console.log(`day of the month does not exist`);
 }
 
 /* ----- KzrtqyQ ----- */
