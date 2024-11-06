@@ -1,4 +1,5 @@
 /* ----- 67kfznmiMl ----- */
+
 let arr = [
     -20.5,
     -10
@@ -22,7 +23,12 @@ console.log(arr[7]);
 console.log(arr[8]);
 console.log(arr[9]);
 
+/* ----- END 67kfznmiMl ----- */
+
+
+
 /* ----- LARqoUj5I ----- */
+
 let arrBookOne = {
     title: 'Book One',
     pageCount: '11',
@@ -39,7 +45,12 @@ let arrBookThree = {
     genre: 'Comedy'
 }
 
+/* ----- END LARqoUj5I ----- */
+
+
+
 /* ----- sA3Gg1sCp ----- */
+
 arrBookOne.authors = [
     {
         name: 'Author One One',
@@ -72,7 +83,12 @@ arrBookThree.authors = [
     }
 ]
 
+/* ----- END sA3Gg1sCp ----- */
+
+
+
 /* ----- jCHFnEbdmFd ----- */
+
 let users = [
     {
         name: 'Name 1',
@@ -136,35 +152,40 @@ console.log(users[7].password);
 console.log(users[8].password);
 console.log(users[9].password);
 
+/* ----- END jCHFnEbdmFd ----- */
+
+
+
 /* ----- coYydZuaeEB ----- */
+
 let arrDayTemperature = {
-    morning: {
-        monday: 0,
-        tuesday: 1,
-        wednesday: 2,
-        thursday: 3,
-        friday: 4,
-        saturday: 5,
-        sunday: 6
-    },
-    day: {
-        monday: 10,
-        tuesday: 11,
-        wednesday: 12,
-        thursday: 13,
-        friday: 14,
-        saturday: 15,
-        sunday: 16
-    },
-    evening: {
-        monday: 5,
-        tuesday: 6,
-        wednesday: 7,
-        thursday: 8,
-        friday: 9,
-        saturday: 10,
-        sunday: 11
-    }
+    morning: [
+        6,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    day: [
+        16,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+    ],
+    evening: [
+        11,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ]
 }
 let arrWeekTemperature = [
     {
@@ -203,8 +224,15 @@ let arrWeekTemperature = [
         evening: 10
     }
 ]
+console.log(arrDayTemperature); // додано, щоб не писало що не використана змінна
+console.log(arrWeekTemperature); // додано, щоб не писало що не використана змінна
+
+/* ----- END coYydZuaeEB ----- */
+
+
 
 /* ----- bAUsaq6LI ----- */
+
 let x = 5;
 if (x !== 0) {
     console.log('Вірно');
@@ -234,43 +262,148 @@ else {
     console.log('Невірно');
 }
 
+/* ----- END bAUsaq6LI ----- */
+
+
+
 /* ----- 3ckURgvs ----- */
+
 let time = 13;
-if (time < 0 || time > 59){
-    console.log(`minute doesn't exist`);
+if (time <= 0 || time > 59){
+    console.log(`Хвилини вказано не вірно`);
 }
-else if (time >= 0 && time < 15) {
-    console.log('first quarter of an hour');
+else if (time > 0 && time < 15) {
+    console.log('Перша чверть години');
 }
 else if (time >= 15 && time < 30) {
-    console.log('second quarter of an hour');
+    console.log('Друга чверть години');
 }
 else if (time >= 30 && time < 45) {
-    console.log('third quarter of an hour');
+    console.log('Третя чверть години');
 }
 else if (time >= 45 && time <= 59) {
-    console.log('fourth quarter of an hour');
+    console.log('Четверта чверть години');
 }
 
+/* ----- END 3ckURgvs ----- */
+
+
+
 /* ----- UMoNq4biWGe ----- */
+
 let day = 13;
 if (day < 1 || day > 31) {
-    console.log(`day of the month does not exist`);
+    console.log(`День місяця вказано не вірно`);
 }
 else if (day >= 1 && day <= 10) {
-    console.log('first ten days of the month');
+    console.log('Перша декада місяця');
 }
 else if (day > 10 && day <= 20) {
-    console.log('second ten days of the month');
+    console.log('Друга декада місяця');
 }
 else if (day > 20 && day <= 31) {
-    console.log('third ten days of the month');
+    console.log('Третя декада місяця');
 }
+
+/* ----- END UMoNq4biWGe ----- */
+
+
 
 /* ----- KzrtqyQ ----- */
 
+let dayWeek = '5';
+// dayWeek = prompt('Введіть порядковий номер дня в тижні');
+switch (dayWeek) {
+    case '1':
+        console.log('В понеділок у вас Monday');
+        break;
+    case '2':
+        console.log('У вівторок у вас Tuesday');
+        break;
+    case '3':
+        console.log('В середу у вас Wednesday');
+        break;
+    case '4':
+        console.log('В четвер у вас Thursday');
+        break;
+    case '5':
+        console.log(`У п'ятницю у вас Friday`);
+        break;
+    case '6':
+        console.log('В суботу у вас Saturday');
+        break;
+    case '7':
+        console.log('У неділю у вас Sunday');
+        break;
+}
+
+/* ----- END KzrtqyQ ----- */
+
+
+
 /* ----- uwsz1RnTQJ1 ----- */
+
+let numberFirst = 5;
+let numberSecond = 13;
+// numberFirst = prompt('Введіть перше число');
+// numberSecond = prompt('Введіть друге число');
+if (numberFirst === numberSecond) {
+    console.log('Введені числа дорівнюють одне одному');
+}
+else if (numberFirst > numberSecond) {
+    console.log('Перше число більше за друге');
+}
+else if (numberFirst < numberSecond) {
+    console.log('Перше число менше за друге');
+}
+
+/* ----- END uwsz1RnTQJ1 ----- */
+
+
 
 /* ----- iBvqtjEm ----- */
 
+x = 'null'; // '13' 13 0 undefined null 'undefined' 'null' 'false'
+if (!x || x === 'undefined' || x === 'null' || x === 'false') {
+    x = 'default';
+    console.log(x);
+}
+else {
+    console.log('good');
+}
+
+/* ----- END iBvqtjEm ----- */
+
+
+
 /* ----- awLXL6TBzg ----- */
+
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+let minMonthNeed = 5;
+if (coursesAndDurationArray[0].monthDuration > minMonthNeed) {
+    console.log(`${coursesAndDurationArray[0].title} - Супер`);
+}
+if (coursesAndDurationArray[1].monthDuration > minMonthNeed) {
+    console.log(`${coursesAndDurationArray[1].title} - Супер`);
+}
+if (coursesAndDurationArray[2].monthDuration > minMonthNeed) {
+    console.log(`${coursesAndDurationArray[2].title} - Супер`);
+}
+if (coursesAndDurationArray[0].monthDuration > minMonthNeed) {
+    console.log(`${coursesAndDurationArray[3].title} - Супер`);
+}
+if (coursesAndDurationArray[4].monthDuration > minMonthNeed) {
+    console.log(`${coursesAndDurationArray[4].title} - Супер`);
+}
+if (coursesAndDurationArray[5].monthDuration > minMonthNeed) {
+    console.log(`${coursesAndDurationArray[5].title} - Супер`);
+}
+
+/* ----- END awLXL6TBzg ----- */
