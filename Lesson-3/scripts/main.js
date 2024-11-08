@@ -2,7 +2,7 @@ let i; // індексна змінна для циклів
 
 /* ----- y7crMeFwHcS ----- */
 
-document.write(`<div class="d-flex">`);
+document.write(`y7crMeFwHcS<div class="d-flex">`);
 for (i = 1; i <= 10; i++) {
     document.write(`<div class="test-div">дів</div>`);
 }
@@ -13,7 +13,7 @@ document.write(`</div>`);
 
 /* ----- TYj7ncx ----- */
 
-document.write(`<div class="d-flex">`);
+document.write(`TYj7ncx<div class="d-flex">`);
 for (i = 1; i <= 10; i++) {
     document.write(`<div class="test-div">дів-${i}</div>`);
 }
@@ -25,7 +25,7 @@ document.write(`</div>`);
 /* ----- uzkt71dp ----- */
 
 i = 1;
-document.write(`<div class="d-flex">`);
+document.write(`uzkt71dp<div class="d-flex">`);
 while (i <= 20) {
     document.write(`<h1 class="test-div">h1</h1>`);
     i++;
@@ -38,7 +38,7 @@ document.write(`</div>`);
 /* ----- OeT7t3uUMFi ----- */
 
 i = 1;
-document.write(`<div class="d-flex">`);
+document.write(`OeT7t3uUMFi<div class="d-flex">`);
 while (i <= 20) {
     document.write(`<h1 class="test-div">h-${i}</h1>`);
     i++;
@@ -52,6 +52,7 @@ document.write(`</div>`);
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 
+document.write(`vLSZKMlO`);
 document.write(`<ul>`);
 for (i = 0; i < listOfItems.length; i++) {
     document.write(`<li>${listOfItems[i]}</li>`);
@@ -86,7 +87,7 @@ let products = [
     },
 ];
 
-document.write(`<div class="d-flex">`);
+document.write(`Hdjws7E<div class="d-flex">`);
 for (i = 0; i < products.length; i++) {
     let product = products[i];
     document.write(`
@@ -117,7 +118,7 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
-document.write(`<div class="d-flex">`);
+document.write(`4WrHwFTEop0<div class="d-flex">`);
 for (let user of users) {
     if (user.status) {
         document.write(`

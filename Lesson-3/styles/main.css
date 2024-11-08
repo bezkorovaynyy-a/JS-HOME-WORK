@@ -1,7 +1,8 @@
 .d-flex {
     display: flex;
     justify-content: flex-start;
-    gap: 5px
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
 .test-div, .product-card {
