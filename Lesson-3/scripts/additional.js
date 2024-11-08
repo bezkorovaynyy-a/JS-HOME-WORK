@@ -10,7 +10,7 @@ console.log(arrOutNumber);
 
 let arrOutString = [];
 for (ii = 0; ii <= 4; ii++) {
-    arrOutString[ii] = `${ii}`;
+    arrOutString[ii] = `ii-${ii}`;
 }
 console.log(arrOutString);
 
@@ -19,7 +19,7 @@ for (ii = 1; ii <= 5; ii++) {
     if (ii % 4 === 0) {
         arrOutMix[ii - 1] = false;
     } else if (ii % 3 === 0) {
-        arrOutMix[ii - 1] = `${ii}`;
+        arrOutMix[ii - 1] = `ii-${ii}`;
     } else if (ii % 2 === 0) {
         arrOutMix[ii - 1] = true;
     } else {
@@ -153,8 +153,7 @@ console.log(arrIn);
 /* ----- yHAwJOyiC ----- */
 
 arrOut = [];
-counterIteration = 10;
-for (ii = 0; ii < counterIteration; ii++) {
+for (ii = 0; ii < 10; ii++) {
     arrOut[ii] = ii;
     console.log(arrOut[ii]);
 }
@@ -165,8 +164,7 @@ for (ii = 0; ii < counterIteration; ii++) {
 /* ----- GamKju89ob ----- */
 
 arrOut = [];
-counterIteration = 10;
-for (ii = 0; ii < counterIteration; ii++) {
+for (ii = 0; ii < 10; ii++) {
     arrOut[ii] = `i${ii}`;
     console.log(arrOut[ii]);
 }
@@ -177,8 +175,7 @@ for (ii = 0; ii < counterIteration; ii++) {
 /* ----- Bm76xmg ----- */
 
 arrOut = [];
-counterIteration = 9;
-for (ii = 0; ii <= counterIteration; ii++) {
+for (ii = 0; ii <= 9; ii++) {
     if (ii % 4 === 0) {
         arrOut[ii] = false;
     } else if (ii % 3 === 0) {
