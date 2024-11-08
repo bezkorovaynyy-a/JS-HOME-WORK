@@ -1,11 +1,9 @@
-let i;// індексна змінна для циклів
-let counterIteration;// змінна для кількості ітерацій циклів
+let i; // індексна змінна для циклів
 
 /* ----- y7crMeFwHcS ----- */
 
-counterIteration = 10;
 document.write(`<div class="d-flex">`);
-for (i = 1; i <= counterIteration; i++) {
+for (i = 1; i <= 10; i++) {
     document.write(`<div class="test-div">дів</div>`);
 }
 document.write(`</div>`);
@@ -15,9 +13,8 @@ document.write(`</div>`);
 
 /* ----- TYj7ncx ----- */
 
-counterIteration = 10;
 document.write(`<div class="d-flex">`);
-for (i = 1; i <= counterIteration; i++) {
+for (i = 1; i <= 10; i++) {
     document.write(`<div class="test-div">дів-${i}</div>`);
 }
 document.write(`</div>`);
@@ -28,9 +25,8 @@ document.write(`</div>`);
 /* ----- uzkt71dp ----- */
 
 i = 1;
-counterIteration = 20;
 document.write(`<div class="d-flex">`);
-while (i <= counterIteration) {
+while (i <= 20) {
     document.write(`<h1 class="test-div">h1</h1>`);
     i++;
 }
@@ -42,9 +38,8 @@ document.write(`</div>`);
 /* ----- OeT7t3uUMFi ----- */
 
 i = 1;
-counterIteration = 20;
 document.write(`<div class="d-flex">`);
-while (i <= counterIteration) {
+while (i <= 20) {
     document.write(`<h1 class="test-div">h-${i}</h1>`);
     i++;
 }

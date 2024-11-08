@@ -1,33 +1,29 @@
-let i;// індексна змінна для циклів
-let counterIteration;// змінна для кількості ітерацій циклів
+let ii; // індексна змінна для циклів
 
 /* ----- WpkK0ZH1 ----- */
 
-counterIteration = 4;
 let arrOutNumber = [];
-for (i = 0; i <= counterIteration; i++) {
-    arrOutNumber[i] = i;
+for (ii = 0; ii <= 4; ii++) {
+    arrOutNumber[ii] = ii;
 }
 console.log(arrOutNumber);
 
-counterIteration = 4;
 let arrOutString = [];
-for (i = 0; i <= counterIteration; i++) {
-    arrOutString[i] = `${i}`;
+for (ii = 0; ii <= 4; ii++) {
+    arrOutString[ii] = `${ii}`;
 }
 console.log(arrOutString);
 
-counterIteration = 5;
 let arrOutMix = [];
-for (i = 1; i <= counterIteration; i++) {
-    if (i % 4 === 0) {
-        arrOutMix[i - 1] = false;
-    } else if (i % 3 === 0) {
-        arrOutMix[i - 1] = `${i}`;
-    } else if (i % 2 === 0) {
-        arrOutMix[i - 1] = true;
+for (ii = 1; ii <= 5; ii++) {
+    if (ii % 4 === 0) {
+        arrOutMix[ii - 1] = false;
+    } else if (ii % 3 === 0) {
+        arrOutMix[ii - 1] = `${ii}`;
+    } else if (ii % 2 === 0) {
+        arrOutMix[ii - 1] = true;
     } else {
-        arrOutMix[i - 1] = i;
+        arrOutMix[ii - 1] = ii;
     }
 }
 console.log(arrOutMix);
@@ -51,53 +47,53 @@ console.log(arrOut);
 /* ----- qLQLJSeN7i ----- */
 
 let arrIn = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
-i = 0;
-while (i < arrIn.length) {
-    console.log(`${i} = ${arrIn[i]}`);
-    i++;
+ii = 0;
+while (ii < arrIn.length) {
+    console.log(`${ii} = ${arrIn[ii]}`);
+    ii++;
 }
 console.log(``);
-for (i = 0; i < arrIn.length; i++) {
-    console.log(`${i} = ${arrIn[i]}`);
+for (ii = 0; ii < arrIn.length; ii++) {
+    console.log(`${ii} = ${arrIn[ii]}`);
 }
 console.log(``);
-i = 0;
-while (i < arrIn.length) {
-    if (i % 2 !== 0) {
-        console.log(`${i} = ${arrIn[i]}`);
+ii = 0;
+while (ii < arrIn.length) {
+    if (ii % 2 !== 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
     }
-    i++;
+    ii++;
 }
 console.log(``);
-for (i = 0; i < arrIn.length; i++) {
-    if (i % 2 !== 0) {
-        console.log(`${i} = ${arrIn[i]}`);
-    }
-}
-console.log(``);
-i = 0;
-while (i < arrIn.length) {
-    if (arrIn[i] % 2 === 0) {
-        console.log(`${i} = ${arrIn[i]}`);
-    }
-    i++;
-}
-console.log(``);
-for (i = 0; i < arrIn.length; i++) {
-    if (arrIn[i] % 2 === 0) {
-        console.log(`${i} = ${arrIn[i]}`);
+for (ii = 0; ii < arrIn.length; ii++) {
+    if (ii % 2 !== 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
     }
 }
 console.log(``);
-for (i = 0; i < arrIn.length; i++) {
-    if (arrIn[i] % 3 === 0) {
-        arrIn[i] = 'okten';
+ii = 0;
+while (ii < arrIn.length) {
+    if (arrIn[ii] % 2 === 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
+    }
+    ii++;
+}
+console.log(``);
+for (ii = 0; ii < arrIn.length; ii++) {
+    if (arrIn[ii] % 2 === 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
+    }
+}
+console.log(``);
+for (ii = 0; ii < arrIn.length; ii++) {
+    if (arrIn[ii] % 3 === 0) {
+        arrIn[ii] = 'okten';
     }
 }
 console.log(arrIn);
 console.log(``);
-for (i = (arrIn.length - 1); i >= 0; i--) {
-    console.log(`${i} = ${arrIn[i]}`);
+for (ii = (arrIn.length - 1); ii >= 0; ii--) {
+    console.log(`${ii} = ${arrIn[ii]}`);
 }
 console.log(``);
 
@@ -106,47 +102,47 @@ console.log(`reverse`);
 console.log(``);
 arrIn = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
 
-i = arrIn.length - 1;
-while (i >= 0) {
-    console.log(`${i} = ${arrIn[i]}`);
-    i--;
+ii = arrIn.length - 1;
+while (ii >= 0) {
+    console.log(`${ii} = ${arrIn[ii]}`);
+    ii--;
 }
 console.log(``);
-for (i = (arrIn.length - 1); i >= 0; i--) {
-    console.log(`${i} = ${arrIn[i]}`);
+for (ii = (arrIn.length - 1); ii >= 0; ii--) {
+    console.log(`${ii} = ${arrIn[ii]}`);
 }
 console.log(``);
-i = arrIn.length - 1;
-while (i >= 0) {
-    if (i % 2 !== 0) {
-        console.log(`${i} = ${arrIn[i]}`);
+ii = arrIn.length - 1;
+while (ii >= 0) {
+    if (ii % 2 !== 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
     }
-    i--;
+    ii--;
 }
 console.log(``);
-for (i = (arrIn.length - 1); i >= 0; i--) {
-    if (i % 2 !== 0) {
-        console.log(`${i} = ${arrIn[i]}`);
-    }
-}
-console.log(``);
-i = arrIn.length - 1;
-while (i >= 0) {
-    if (arrIn[i] % 2 === 0) {
-        console.log(`${i} = ${arrIn[i]}`);
-    }
-    i--;
-}
-console.log(``);
-for (i = (arrIn.length - 1); i >= 0; i--) {
-    if (arrIn[i] % 2 === 0) {
-        console.log(`${i} = ${arrIn[i]}`);
+for (ii = (arrIn.length - 1); ii >= 0; ii--) {
+    if (ii % 2 !== 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
     }
 }
 console.log(``);
-for (i = (arrIn.length - 1); i >= 0; i--) {
-    if (arrIn[i] % 3 === 0) {
-        arrIn[i] = 'okten';
+ii = arrIn.length - 1;
+while (ii >= 0) {
+    if (arrIn[ii] % 2 === 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
+    }
+    ii--;
+}
+console.log(``);
+for (ii = (arrIn.length - 1); ii >= 0; ii--) {
+    if (arrIn[ii] % 2 === 0) {
+        console.log(`${ii} = ${arrIn[ii]}`);
+    }
+}
+console.log(``);
+for (ii = (arrIn.length - 1); ii >= 0; ii--) {
+    if (arrIn[ii] % 3 === 0) {
+        arrIn[ii] = 'okten';
     }
 }
 console.log(arrIn);
@@ -158,9 +154,9 @@ console.log(arrIn);
 
 arrOut = [];
 counterIteration = 10;
-for (i = 0; i < counterIteration; i++) {
-    arrOut[i] = i;
-    console.log(arrOut[i]);
+for (ii = 0; ii < counterIteration; ii++) {
+    arrOut[ii] = ii;
+    console.log(arrOut[ii]);
 }
 
 /* ----- END yHAwJOyiC ----- */
@@ -170,9 +166,9 @@ for (i = 0; i < counterIteration; i++) {
 
 arrOut = [];
 counterIteration = 10;
-for (i = 0; i < counterIteration; i++) {
-    arrOut[i] = `i${i}`;
-    console.log(arrOut[i]);
+for (ii = 0; ii < counterIteration; ii++) {
+    arrOut[ii] = `i${ii}`;
+    console.log(arrOut[ii]);
 }
 
 /* ----- END GamKju89ob ----- */
@@ -182,17 +178,17 @@ for (i = 0; i < counterIteration; i++) {
 
 arrOut = [];
 counterIteration = 9;
-for (i = 0; i <= counterIteration; i++) {
-    if (i % 4 === 0) {
-        arrOut[i] = false;
-    } else if (i % 3 === 0) {
-        arrOut[i] = `i-${i}`;
-    } else if (i % 2 === 0) {
-        arrOut[i] = true;
+for (ii = 0; ii <= counterIteration; ii++) {
+    if (ii % 4 === 0) {
+        arrOut[ii] = false;
+    } else if (ii % 3 === 0) {
+        arrOut[ii] = `i-${ii}`;
+    } else if (ii % 2 === 0) {
+        arrOut[ii] = true;
     } else {
-        arrOut[i] = i;
+        arrOut[ii] = ii;
     }
-    console.log(arrOut[i]);
+    console.log(arrOut[ii]);
 }
 console.log(arrOut);
 
@@ -201,9 +197,9 @@ console.log(arrOut);
 
 /* ----- u3vmD0YJXh ----- */
 
-for (i = 0; i < arrOut.length; i++) {
-    if (typeof arrOut[i] === "boolean") {
-        console.log(arrOut[i]);
+for (ii = 0; ii < arrOut.length; ii++) {
+    if (typeof arrOut[ii] === "boolean") {
+        console.log(arrOut[ii]);
     }
 }
 
@@ -212,9 +208,9 @@ for (i = 0; i < arrOut.length; i++) {
 
 /* ----- 9stMq2ou ----- */
 
-for (i = 0; i < arrOut.length; i++) {
-    if (typeof arrOut[i] === "number") {
-        console.log(arrOut[i]);
+for (ii = 0; ii < arrOut.length; ii++) {
+    if (typeof arrOut[ii] === "number") {
+        console.log(arrOut[ii]);
     }
 }
 
@@ -223,9 +219,9 @@ for (i = 0; i < arrOut.length; i++) {
 
 /* ----- mK4pmM4 ----- */
 
-for (i = 0; i < arrOut.length; i++) {
-    if (typeof arrOut[i] === "string") {
-        console.log(arrOut[i]);
+for (ii = 0; ii < arrOut.length; ii++) {
+    if (typeof arrOut[ii] === "string") {
+        console.log(arrOut[ii]);
     }
 }
 
