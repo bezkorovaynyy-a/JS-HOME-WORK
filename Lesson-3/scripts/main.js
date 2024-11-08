@@ -1,5 +1,5 @@
-let i;
-let counterIteration;
+let i;// індексна змінна для циклів
+let counterIteration;// змінна для кількості ітерацій циклів
 
 /* ----- y7crMeFwHcS ----- */
 
@@ -13,7 +13,6 @@ document.write(`</div>`);
 /* ----- END y7crMeFwHcS ----- */
 
 
-
 /* ----- TYj7ncx ----- */
 
 counterIteration = 10;
@@ -24,7 +23,6 @@ for (i = 1; i <= counterIteration; i++) {
 document.write(`</div>`);
 
 /* ----- END TYj7ncx ----- */
-
 
 
 /* ----- uzkt71dp ----- */
@@ -41,7 +39,6 @@ document.write(`</div>`);
 /* ----- END uzkt71dp ----- */
 
 
-
 /* ----- OeT7t3uUMFi ----- */
 
 i = 1;
@@ -56,7 +53,6 @@ document.write(`</div>`);
 /* ----- END OeT7t3uUMFi ----- */
 
 
-
 /* ----- vLSZKMlO ----- */
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
@@ -68,7 +64,6 @@ for (i = 0; i < listOfItems.length; i++) {
 document.write(`</ul>`);
 
 /* ----- END vLSZKMlO ----- */
-
 
 
 /* ----- Hdjws7E ----- */
@@ -109,7 +104,6 @@ for (i = 0; i < products.length; i++) {
 document.write(`</div>`);
 
 /* ----- END Hdjws7E ----- */
-
 
 
 /* ----- 4WrHwFTEop0 ----- */
