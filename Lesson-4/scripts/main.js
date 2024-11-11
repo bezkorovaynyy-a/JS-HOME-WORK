@@ -1,4 +1,4 @@
-let PI = 3.14;
+const PI = 3.14;
 let sideA;
 let sideB;
 let r; // радіус
