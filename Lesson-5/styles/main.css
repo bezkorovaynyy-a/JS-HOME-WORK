@@ -1,0 +1,6 @@
+.test-div, .product-card {
+    width: fit-content;
+    border: solid 1px lightgray;
+    margin: 5px 0;
+    padding: 5px;
+}
